@@ -852,7 +852,7 @@
 			(pintype "passive")
 			(uuid "ba9e9a9f-79d3-448b-894c-ce1848818748")
 		)
-		(model "/3dModels/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2710,7 +2710,7 @@
 			(pintype "passive")
 			(uuid "7e87e2bd-10c0-4537-9fc8-c941460a1642")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3108,7 +3108,7 @@
 			(pintype "passive")
 			(uuid "bc48097c-443a-4491-8945-6064bb62a0d7")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3518,7 +3518,7 @@
 			(pintype "passive")
 			(uuid "6c8f4dfc-504e-4427-b6e9-df16cc4a0f04")
 		)
-		(model "/3dModels/R_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/R_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3916,7 +3916,7 @@
 			(pintype "passive")
 			(uuid "4465b420-ec53-41d8-aefd-c56db272b6cf")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4333,7 +4333,7 @@
 			(pintype "passive")
 			(uuid "3edeae85-e53d-4440-858c-0d178c0ac19e")
 		)
-		(model "/3dModels/FB_0805.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/FB_0805.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5207,7 +5207,7 @@
 			(pintype "passive")
 			(uuid "864eb851-0884-4a23-aeb1-f9f3ab950386")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5605,7 +5605,7 @@
 			(pintype "passive")
 			(uuid "ad0b48e0-f618-496f-9acb-daed87da6514")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6003,7 +6003,7 @@
 			(pintype "passive")
 			(uuid "30db1dea-bc11-4267-9c74-6429422bbe4d")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6953,7 +6953,7 @@
 			(pintype "passive")
 			(uuid "952f7302-2295-4b70-a0c3-fd0675e6e29d")
 		)
-		(model "/3dModels/D_SOD-323.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7351,7 +7351,7 @@
 			(pintype "passive")
 			(uuid "bd158acd-7d68-44ed-a476-94bfa74d13f8")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7825,7 +7825,7 @@
 			(pintype "passive")
 			(uuid "d146237e-71dd-4f83-b586-397ffc938677")
 		)
-		(model "/3dModels/D_SOD-323.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8528,7 +8528,7 @@
 			(pintype "passive")
 			(uuid "51acce98-c53e-4ec5-b08f-1c27a695daa3")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8926,7 +8926,7 @@
 			(pintype "passive")
 			(uuid "f1512640-97f1-4d3f-a699-4ca3b2192707")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9730,7 +9730,7 @@
 			(pintype "passive")
 			(uuid "54133d10-e233-4e02-a3c0-0981f879694d")
 		)
-		(model "/3dModels/D_SOD-323.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10141,7 +10141,7 @@
 			(pintype "passive")
 			(uuid "8f365989-7694-4429-8bf7-4a069e4e3aed")
 		)
-		(model "/3dModels/R_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/R_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10615,7 +10615,7 @@
 			(pintype "passive")
 			(uuid "6d729de5-2825-41b1-8247-6fd4b3c70b82")
 		)
-		(model "/3dModels/D_SOD-323.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11187,7 +11187,7 @@
 			(pintype "passive")
 			(uuid "f5cbe98f-9fc8-4b4f-8f22-3675fb02d9bc")
 		)
-		(model "/3dModels/D_SMC.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SMC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11585,7 +11585,7 @@
 			(pintype "passive")
 			(uuid "6381bfa7-9ae9-450b-9b96-bb8f9bd76525")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12059,7 +12059,7 @@
 			(pintype "passive")
 			(uuid "c2a3d927-6ced-49ab-919e-5d134ad2bfcf")
 		)
-		(model "/3dModels/D_SOD-323.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13700,7 +13700,7 @@
 			(pintype "power_in")
 			(uuid "d7bba10d-9a37-4604-bb7a-0bfd698a04c9")
 		)
-		(model "/3dModels/LQFP-48_7x7mm_P0.5mm.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/LQFP-48_7x7mm_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14098,7 +14098,7 @@
 			(pintype "passive")
 			(uuid "1555a579-a8b0-45a6-a275-b09488d464c5")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14572,7 +14572,7 @@
 			(pintype "passive")
 			(uuid "3629a9c3-42a4-4281-81c2-4baaecf4b485")
 		)
-		(model "/3dModels/D_SOD-323.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14970,7 +14970,7 @@
 			(pintype "passive")
 			(uuid "896eb337-a468-4e20-9a42-0eda7a62cee0")
 		)
-		(model "/3dModels/C_0603.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15380,7 +15380,7 @@
 			(pintype "passive")
 			(uuid "aa35673f-e1d7-48af-8138-6a8bca803580")
 		)
-		(model "/3dModels/R_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/R_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16069,7 +16069,7 @@
 			(pintype "passive")
 			(uuid "01e91434-3eb7-4178-be05-ec8c94d8403a")
 		)
-		(model "/3dModels/FC-135R_L3.2-W1.5.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/FC-135R_L3.2-W1.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16451,7 +16451,7 @@
 			(pintype "passive")
 			(uuid "02c16fc8-ae6e-45ef-ad23-e871438850a4")
 		)
-		(model "/3dModels/D_0603.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16861,7 +16861,7 @@
 			(pintype "passive")
 			(uuid "a3a0f89b-744f-45b6-bd35-672396bf5d9b")
 		)
-		(model "/3dModels/R_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/R_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17243,7 +17243,7 @@
 			(pintype "passive")
 			(uuid "581cc41f-76fb-4aa4-a77d-0fe5a3981205")
 		)
-		(model "/3dModels/D_0603.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18740,7 +18740,7 @@
 			(pintype "power_out")
 			(uuid "266bc089-3f25-478b-8ff9-f6dca89981db")
 		)
-		(model "/3dModels/SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19138,7 +19138,7 @@
 			(pintype "passive")
 			(uuid "7ac20f48-e13c-4307-a667-93fd4258d59d")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19536,7 +19536,7 @@
 			(pintype "passive")
 			(uuid "9017c2b5-4c86-4814-ae49-951efce90030")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20010,7 +20010,7 @@
 			(pintype "passive")
 			(uuid "6f8c3871-988a-4ee4-bb25-5883fee6bec6")
 		)
-		(model "/3dModels/D_SOD-323.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20408,7 +20408,7 @@
 			(pintype "passive")
 			(uuid "f2310752-c541-4230-b2bd-682a5ca71139")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20882,7 +20882,7 @@
 			(pintype "passive")
 			(uuid "01307afc-5229-4dec-a93d-587dc46f022d")
 		)
-		(model "/3dModels/D_SOD-323.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21356,7 +21356,7 @@
 			(pintype "passive")
 			(uuid "98d50493-ddfb-410d-9bc2-f214919adc84")
 		)
-		(model "/3dModels/D_SOD-323.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21766,7 +21766,7 @@
 			(pintype "passive")
 			(uuid "878ad9fd-5e1b-4a0f-85dd-ace8376adc7b")
 		)
-		(model "/3dModels/R_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/R_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22240,7 +22240,7 @@
 			(pintype "passive")
 			(uuid "a9a1c740-72dc-498e-9e45-c4742f86d1fa")
 		)
-		(model "/3dModels/D_SOD-323.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22638,7 +22638,7 @@
 			(pintype "passive")
 			(uuid "fac27dd6-5f4c-4a22-ad98-f07d09deff90")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23296,7 +23296,7 @@
 			(pintype "passive")
 			(uuid "79aef31e-a89a-49e6-bd7a-d33c5e886796")
 		)
-		(model "/3dModels/C_0402.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23758,7 +23758,7 @@
 				)
 			)
 		)
-		(model "/3dModels/OSC-SMD_4P-L3.2-W2.5-BL.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/OSC-SMD_4P-L3.2-W2.5-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24156,7 +24156,7 @@
 			(pintype "passive")
 			(uuid "5ef008cf-bd5c-403b-9306-44af4f7b7eec")
 		)
-		(model "/3dModels/C_0603.step"
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0603.step"
 			(offset
 				(xyz 0 0 0)
 			)
