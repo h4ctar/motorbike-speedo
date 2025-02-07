@@ -14,10 +14,12 @@ jobs:
                   cd speedo-pcb
                   kibot
 
-            - uses: actions/upload-artifact@v4
+            - name: upload generated files
+              uses: actions/upload-artifact@v4
               with:
                   path: speedo-pcb/generated
 
-            - uses: actions/upload-artifact@v4
+            - name: upload jlcpcb files
+              uses: actions/upload-artifact@v4
               with:
                   path: speedo-pcb/JLCPCB
