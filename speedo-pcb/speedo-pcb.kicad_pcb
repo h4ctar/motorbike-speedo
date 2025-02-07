@@ -24444,16 +24444,6 @@
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
-			(start 1.7 0.98)
-			(end -1.7 0.98)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "2c7fe408-4892-4e52-bf84-fde1b10889aa")
-		)
-		(fp_line
 			(start 1.7 -0.98)
 			(end 1.7 0.98)
 			(stroke
@@ -24464,6 +24454,26 @@
 			(uuid "24829807-4b81-4b78-a1e4-7d1ee45b16fb")
 		)
 		(fp_line
+			(start 1.7 -0.98)
+			(end -1.7 -0.98)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "B.CrtYd")
+			(uuid "6aa9fe7b-3059-44ed-b0dd-cc6030e081d7")
+		)
+		(fp_line
+			(start -1.7 0.98)
+			(end 1.7 0.98)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "B.CrtYd")
+			(uuid "da7280e0-b6dd-42a2-91c0-293f2ce1fad5")
+		)
+		(fp_line
 			(start -1.7 0.98)
 			(end -1.7 -0.98)
 			(stroke
@@ -24472,16 +24482,6 @@
 			)
 			(layer "B.CrtYd")
 			(uuid "24f3a4ed-a094-400a-9e5d-18228746b13c")
-		)
-		(fp_line
-			(start -1.7 -1)
-			(end 1.7 -1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "0900537c-5fa4-485c-ac9e-3620b5b667d3")
 		)
 		(fp_line
 			(start 1 0.62)
