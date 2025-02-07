@@ -6,13 +6,20 @@ globals:
 
 preflight:
     check_zone_fills: true
+
     erc:
         filters:
             - error: lib_symbol_issues
+
     drc:
         filters:
             - error: lib_footprint_issues
 
 outputs:
-    - name: pcbdraw
+    - name: pcbdraw-front
       type: pcbdraw
+
+    - name: pcbdraw-back
+      type: pcbdraw
+      options:
+          bottom: true
