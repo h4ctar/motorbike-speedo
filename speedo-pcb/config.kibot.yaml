@@ -1,6 +1,9 @@
 kibot:
     version: 1
 
+import:
+    - file: JLCPCB
+
 globals:
     dir: generated
 
