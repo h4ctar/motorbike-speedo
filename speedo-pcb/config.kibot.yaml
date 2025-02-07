@@ -10,4 +10,5 @@ preflight:
         - error: lib_symbol_issues
 
 outputs:
-    - type: pcbdraw
+    - name: pcbdraw
+      type: pcbdraw
