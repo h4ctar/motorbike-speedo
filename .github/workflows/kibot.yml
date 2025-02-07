@@ -3,13 +3,17 @@ name: "Variants demo using GitHub actions and quick-start"
 on: [push]
 
 jobs:
-  kibot:
-    runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    kibot:
+        runs-on: ubuntu-latest
+        container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
-    steps:
-    - uses: actions/checkout@v4
+        steps:
+            - uses: actions/checkout@v4
 
-    - run: |
-        cd speedo-pcb
-        kibot
+            - run: |
+                  cd speedo-pcb
+                  kibot
+
+            - uses: actions/upload-artifact@v4
+              with:
+                  path: Generated
