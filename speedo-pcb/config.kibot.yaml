@@ -8,3 +8,6 @@ preflight:
     filters:
         - error: lib_footprint_issues
         - error: lib_symbol_issues
+
+outputs:
+    - type: pcbdraw
