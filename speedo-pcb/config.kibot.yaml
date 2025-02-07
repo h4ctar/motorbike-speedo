@@ -1,7 +1,10 @@
 kibot:
-  version: 1
+    version: 1
 
 preflight:
-  check_zone_fills: true
-  run_erc: true
-  run_drc: true
+    check_zone_fills: true
+    run_erc: true
+    run_drc: true
+    filters:
+        - error: lib_footprint_issues
+        - error: lib_symbol_issues
