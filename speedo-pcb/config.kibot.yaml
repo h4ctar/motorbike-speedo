@@ -1,6 +1,9 @@
 kibot:
     version: 1
 
+globals:
+    dir: generated
+
 preflight:
     check_zone_fills: true
     erc: true
