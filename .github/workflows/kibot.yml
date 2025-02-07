@@ -5,10 +5,11 @@ on: [push]
 jobs:
   kibot:
     runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     steps:
     - uses: actions/checkout@v4
 
-    - uses: INTI-CMNB/KiBot@v2_k8
-      with:
-        config: speedo-pcb/config.kibot.yaml
+    - run: |
+        cd speedo-pcb
+        kibot
