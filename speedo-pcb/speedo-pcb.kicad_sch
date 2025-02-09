@@ -14307,7 +14307,7 @@
 			)
 		)
 		(property "Voltage Rated" "6.3V"
-			(at 22.098 82.0562 0)
+			(at 21.844 83.058 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15948,7 +15948,7 @@
 			)
 		)
 		(property "Voltage Rated" "25V"
-			(at 108.712 82.0562 0)
+			(at 108.712 83.82 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17275,7 +17275,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 35.0662 154.178 0)
+			(at 34.036 160.782 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17823,7 +17823,7 @@
 			)
 		)
 		(property "Voltage Rated" "25V"
-			(at 130.302 82.0562 0)
+			(at 130.302 83.82 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -19204,7 +19204,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 97.282 82.0562 0)
+			(at 97.282 83.566 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -19732,7 +19732,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 33.528 82.0562 0)
+			(at 33.782 83.312 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -20187,7 +20187,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 44.958 82.0562 0)
+			(at 45.212 83.312 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -24655,7 +24655,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 35.0662 169.418 0)
+			(at 34.29 175.768 90)
 			(effects
 				(font
 					(size 0.8 0.8)
