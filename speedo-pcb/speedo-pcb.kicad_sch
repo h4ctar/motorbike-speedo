@@ -5700,7 +5700,7 @@
 				)
 			)
 		)
-		(symbol "PCM_JLCPCB-Diodes:TVS-Bi,P6SMB6.8CA/TR13"
+		(symbol "PCM_JLCPCB-Diodes:TVS-Uni,SMAJ16A"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -5717,7 +5717,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "P6SMB6.8CA/TR13"
+			(property "Value" "SMAJ16A"
 				(at 2.032 -1.2122 0)
 				(effects
 					(font
@@ -5726,7 +5726,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:D_SMB"
+			(property "Footprint" "PCM_JLCPCB:D_SMA"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -5735,7 +5735,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181007_Brightking-P6SMB6-8CA-TR13_C78395.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ16A_C41376405.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5744,7 +5744,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "58.1A 600W 10.5V 6.45V 5.8V SMB(DO-214AA) ESD and Surge Protection (TVS/ESD) ROHS"
+			(property "Description" "26V 400W 19.7V Unidirectional 16V SMA ESD and Surge Protection (TVS/ESD) ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5753,7 +5753,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C78395"
+			(property "LCSC" "C41376405"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5762,7 +5762,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "191189"
+			(property "Stock" "11587"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5771,7 +5771,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.050USD"
+			(property "Price" "0.038USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5807,7 +5807,7 @@
 					(hide yes)
 				)
 			)
-			(property "Class" "Basic Component"
+			(property "Class" "Preferred Component"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5816,7 +5816,7 @@
 					(hide yes)
 				)
 			)
-			(property "Category" "Circuit Protection,TVS"
+			(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5825,7 +5825,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Brightking Elec (TAIWAN)"
+			(property "Manufacturer" "hongjiacheng"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5834,7 +5834,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "P6SMB6.8CA/TR13"
+			(property "Part" "SMAJ16A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5843,7 +5843,7 @@
 					(hide yes)
 				)
 			)
-			(property "Bidirectional Channels" "1"
+			(property "Operating Temperature" "-55°C~+155°C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5852,7 +5852,7 @@
 					(hide yes)
 				)
 			)
-			(property "Breakdown Voltage" "6.45V"
+			(property "Type" "TVS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5861,7 +5861,7 @@
 					(hide yes)
 				)
 			)
-			(property "Maximum Clamping Voltage" "10.5V"
+			(property "Peak Pulse Power Dissipation (Ppp)" "400W"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5870,7 +5870,7 @@
 					(hide yes)
 				)
 			)
-			(property "Reverse Stand-Off Voltage (Vrwm)" "5.8V"
+			(property "Number of Lines" "Single channel"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5879,7 +5879,7 @@
 					(hide yes)
 				)
 			)
-			(property "Peak Pulse Power Dissipation (Ppp)@10/1000us" "600W"
+			(property "Breakdown Voltage" "19.7V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5888,7 +5888,34 @@
 					(hide yes)
 				)
 			)
-			(property "Peak Pulse Current (Ipp)@10/1000us" "58.1A"
+			(property "Maximum Clamping Voltage" "26V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Stand-Off Voltage (Vrwm)" "16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Leakage Current (Ir)" "1uA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "polarity" "Unidirectional"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5906,10 +5933,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TVS-Bi,P6SMB6.8CA/TR13_0_1"
+			(symbol "TVS-Uni,SMAJ16A_0_1"
 				(polyline
 					(pts
-						(xy -1.905 -0.635) (xy -1.27 0) (xy 1.27 0) (xy 1.905 0.635)
+						(xy -1.905 -1.905) (xy -1.27 -1.27) (xy 1.27 -1.27) (xy 1.905 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -5921,19 +5948,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy 0 0) (xy 1.27 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 0) (xy -1.27 -2.54) (xy 1.27 -2.54)
+						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -5944,7 +5959,7 @@
 					)
 				)
 			)
-			(symbol "TVS-Bi,P6SMB6.8CA/TR13_1_1"
+			(symbol "TVS-Uni,SMAJ16A_1_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 3.81)
@@ -20238,6 +20253,247 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:TVS-Uni,SMAJ16A")
+		(at 36.83 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "677cbc3f-a07e-4590-97d3-3c2c9884b9b8")
+		(property "Reference" "D10"
+			(at 41.91 32.7024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ16A"
+			(at 41.91 35.2425 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMA"
+			(at 38.608 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMAJ16A_C41376405.pdf"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "26V 400W 19.7V Unidirectional 16V SMA ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41376405"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "11587"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.038USD"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMAJ16A"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+155°C"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "400W"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Lines" "Single channel"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown Voltage" "19.7V"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maximum Clamping Voltage" "26V"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "16V"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "polarity" "Unidirectional"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36399ab6-a0b1-46e8-bfe8-dd6f4e1ffb6f")
+		)
+		(pin "1"
+			(uuid "a3b0a015-8f61-422a-9582-734191f18d71")
+		)
+		(instances
+			(project ""
+				(path "/f54762c2-a8cc-4b58-9422-701295b95b42"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 128.27 71.12 0)
 		(mirror y)
@@ -24091,220 +24347,6 @@
 			(project ""
 				(path "/f54762c2-a8cc-4b58-9422-701295b95b42"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,P6SMB6.8CA/TR13")
-		(at 36.83 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b415dfad-21f1-4981-9ad8-10786cdf28f2")
-		(property "Reference" "D14"
-			(at 41.91 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P6SMB6.8CA/TR13"
-			(at 41.91 35.56 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 35.052 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810181007_Brightking-P6SMB6-8CA-TR13_C78395.pdf"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "58.1A 600W 10.5V 6.45V 5.8V SMB(DO-214AA) ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C78395"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "191189"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.050USD"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Circuit Protection,TVS"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Brightking Elec (TAIWAN)"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "P6SMB6.8CA/TR13"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Bidirectional Channels" "1"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Breakdown Voltage" "6.45V"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Maximum Clamping Voltage" "10.5V"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Stand-Off Voltage (Vrwm)" "5.8V"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Peak Pulse Power Dissipation (Ppp)@10/1000us" "600W"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Peak Pulse Current (Ipp)@10/1000us" "58.1A"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6003bb5f-70c8-4f1d-a612-234d24bf48c9")
-		)
-		(pin "1"
-			(uuid "8aa611bd-118f-4447-9c71-7d5b212edf40")
-		)
-		(instances
-			(project ""
-				(path "/f54762c2-a8cc-4b58-9422-701295b95b42"
-					(reference "D14")
 					(unit 1)
 				)
 			)
