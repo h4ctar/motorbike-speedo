@@ -17546,7 +17546,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 28.7162 116.078 0)
+			(at 27.686 122.174 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -20889,7 +20889,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 56.388 82.0562 0)
+			(at 55.626 82.55 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22530,7 +22530,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 33.782 83.312 0)
+			(at 33.274 82.804 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22724,7 +22724,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 28.7162 136.398 0)
+			(at 27.686 142.748 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -22987,7 +22987,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 45.212 83.312 0)
+			(at 44.196 82.804 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -24288,7 +24288,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d0bba29-7a86-4309-b9f1-2d7415fa5127")
 		(property "Reference" "#PWR030"
 			(at 35.56 104.14 0)
@@ -24300,7 +24299,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 38.1 99.0599 0)
+			(at 32.512 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25119,7 +25118,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 60.4662 99.568 0)
+			(at 59.436 105.664 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -26323,7 +26322,7 @@
 			)
 		)
 		(property "Current Rating" "800mA"
-			(at 120.9074 70.2564 0)
+			(at 121.158 77.978 90)
 			(effects
 				(font
 					(size 0.8 0.8)
