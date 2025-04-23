@@ -4563,6 +4563,7 @@
 		(sheetname "Root")
 		(sheetfile "speedo-pcb.kicad_sch")
 		(solder_mask_margin 0.038)
+		(attr smd)
 		(fp_line
 			(start 0.9 0.4)
 			(end -0.9 0.4)
@@ -7035,6 +7036,7 @@
 		(sheetname "Root")
 		(sheetfile "speedo-pcb.kicad_sch")
 		(solder_mask_margin 0.038)
+		(attr smd)
 		(fp_line
 			(start 0.9 -0.4)
 			(end 0.9 0.4)
@@ -10075,6 +10077,7 @@
 		(sheetname "Root")
 		(sheetfile "speedo-pcb.kicad_sch")
 		(solder_mask_margin 0.038)
+		(attr smd)
 		(fp_line
 			(start 0.9 -0.4)
 			(end 0.9 0.4)
@@ -16026,6 +16029,7 @@
 		(sheetname "Root")
 		(sheetfile "speedo-pcb.kicad_sch")
 		(solder_mask_margin 0.038)
+		(attr smd)
 		(fp_line
 			(start 0.9 -0.4)
 			(end 0.9 0.4)
@@ -17141,6 +17145,7 @@
 		(sheetname "Root")
 		(sheetfile "speedo-pcb.kicad_sch")
 		(solder_mask_margin 0.038)
+		(attr smd)
 		(fp_line
 			(start 0.9 -0.4)
 			(end 0.9 0.4)
@@ -18395,6 +18400,7 @@
 		(sheetname "Root")
 		(sheetfile "speedo-pcb.kicad_sch")
 		(solder_mask_margin 0.038)
+		(attr smd)
 		(fp_line
 			(start 0.9 0.4)
 			(end -0.9 0.4)
@@ -24208,9 +24214,8 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 1.16 0)
+			(at 1.7 0.1 0)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "d206e818-f78a-4eec-8370-d52ef5d04db6")
 			(effects
 				(font
@@ -25355,6 +25360,7 @@
 		(sheetname "Root")
 		(sheetfile "speedo-pcb.kicad_sch")
 		(solder_mask_margin 0.038)
+		(attr smd)
 		(fp_line
 			(start -0.9 -0.4)
 			(end -0.9 0.4)
