@@ -5152,13 +5152,12 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D15"
-			(at 0 1.43 90)
+			(at -2.09 0 180)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "436ccb31-2cfe-4ecb-bc93-ad594cab6e36")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5167,6 +5166,7 @@
 		(property "Value" "Red"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "937af492-622b-4892-a368-262f92c7f7ed")
 			(effects
 				(font
@@ -11019,9 +11019,8 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at -1.05 0.85 0)
+			(at -0.85 1 0)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "fb735f28-51bd-404c-bfc1-011663b582a5")
 			(effects
 				(font
@@ -11329,6 +11328,7 @@
 		(sheetname "Root")
 		(sheetfile "speedo-pcb.kicad_sch")
 		(solder_mask_margin 0.038)
+		(attr smd)
 		(fp_line
 			(start 0.9 0.4)
 			(end -0.9 0.4)
@@ -11904,9 +11904,8 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -1.05 0.85 0)
+			(at -0.7 -1.1 0)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "dc7e5d16-dad5-41a4-b2c1-52d2e14eb098")
 			(effects
 				(font
@@ -12214,6 +12213,7 @@
 		(sheetname "Root")
 		(sheetfile "speedo-pcb.kicad_sch")
 		(solder_mask_margin 0.038)
+		(attr smd)
 		(fp_line
 			(start 0.9 0.4)
 			(end -0.9 0.4)
