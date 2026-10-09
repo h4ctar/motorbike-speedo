@@ -40,3 +40,5 @@ Work through with `/next` (first unchecked item) or `/next <item>`. Every item n
 ## PCB revision notes
 
 Record board problems found during hardware testing here. Only edit the PCB after discussion.
+
+- OLED lockup after an MCU-only reset is handled in software (`I2C1_RecoverBus()`). The OLED module has no reset pin, so the only hardware fix would be switching its power from a GPIO (P-MOSFET or load switch). Decided 2026-10-10 that this isn't worth a revision on its own; reconsider only if the board is being revised anyway.
