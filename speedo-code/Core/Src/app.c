@@ -20,8 +20,8 @@ void loop() {
 	RTC_TimeTypeDef sTime;
 	HAL_RTC_GetTime(&hrtc, &sTime, RTC_FORMAT_BIN);
 
-	char timeString[6];
-	sprintf(timeString, "%02d:%02d", sTime.Hours, sTime.Minutes);
+	char timeString[8];
+	snprintf(timeString, sizeof(timeString), "%02d:%02d", sTime.Hours, sTime.Minutes);
 	clearScreen();
 	displayString(timeString);
 	updateScreen();

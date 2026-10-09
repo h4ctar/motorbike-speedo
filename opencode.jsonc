@@ -1,0 +1,24 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permissions": [
+    // Vendor and CubeMX-generated files: change them via STM32CubeMX, not by hand.
+    { "action": "edit", "resource": "speedo-code/Drivers/*", "effect": "deny" },
+    { "action": "edit", "resource": "speedo-code/cmake/stm32cubemx/*", "effect": "deny" },
+    { "action": "edit", "resource": "speedo-code/speedo-code.ioc", "effect": "deny" },
+    { "action": "edit", "resource": "speedo-code/.mxproject", "effect": "deny" },
+
+    // PCB works; revisions need a human decision.
+    { "action": "edit", "resource": "speedo-pcb/*", "effect": "ask" },
+
+    // Touching real hardware.
+    { "action": "shell", "resource": "openocd *", "effect": "ask" },
+    { "action": "shell", "resource": "./flash.sh *", "effect": "ask" },
+    { "action": "shell", "resource": "speedo-code/flash.sh *", "effect": "ask" },
+    { "action": "shell", "resource": "arm-none-eabi-gdb *", "effect": "ask" },
+
+    // Commit locally, never push or rewrite history.
+    { "action": "shell", "resource": "git push *", "effect": "deny" },
+    { "action": "shell", "resource": "git reset --hard *", "effect": "ask" },
+    { "action": "shell", "resource": "git commit --amend *", "effect": "ask" },
+  ],
+}
