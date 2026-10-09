@@ -1,8 +1,8 @@
-# Matches the existing hand-written code (STM32CubeIDE/Eclipse default style).
+# Style for hand-written code: 2-space indent like CubeMX, braces on the same line.
 BasedOnStyle: LLVM
-UseTab: ForContinuationAndIndentation
-IndentWidth: 4
-TabWidth: 4
+UseTab: Never
+IndentWidth: 2
+TabWidth: 2
 ContinuationIndentWidth: 8
 AlignAfterOpenBracket: DontAlign
 ColumnLimit: 0
