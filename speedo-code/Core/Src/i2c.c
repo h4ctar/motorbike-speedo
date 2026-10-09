@@ -163,13 +163,5 @@ void I2C1_RecoverBus(void)
   }
 }
 
-/* Recover the bus and reinitialise I2C1 after a failed transfer. DeInit
- * returns the handle to RESET state, so Init calls MspInit (and recovery). */
-HAL_StatusTypeDef I2C1_Reset(void)
-{
-  HAL_I2C_DeInit(&hi2c1);
-  return HAL_I2C_Init(&hi2c1);
-}
-
 /* USER CODE END 1 */
 

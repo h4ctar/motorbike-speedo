@@ -1,6 +1,5 @@
 #include <math.h>
 #include <screen.h>
-#include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
 #include "stm32f1xx_hal.h"
@@ -119,37 +118,24 @@ const uint16_t font[] = {
 };
 // clang-format on
 
-// A full 128-byte page takes ~12 ms at 100 kHz
-#define I2C_TIMEOUT_MS 50
-
-// False after a failed transfer: further writes are skipped and the next
-// updateScreen() re-sends the init sequence.
-static bool screenOk = false;
-
-static void sendBytes(uint8_t control, uint8_t *data, uint16_t size) {
-  if (!screenOk) {
-    return;
-  }
-  if (HAL_I2C_Mem_Write(&I2C_PORT, I2C_ADDR, control, 1, data, size,
-              I2C_TIMEOUT_MS) != HAL_OK) {
-    screenOk = false;
-    I2C1_Reset();
-  }
-}
-
 // Send a byte to the command register
-static void writeCommand(uint8_t byte) {
-  sendBytes(0x00, &byte, 1);
+void writeCommand(uint8_t byte) {
+  HAL_I2C_Mem_Write(&I2C_PORT, I2C_ADDR, 0x00, 1, &byte, 1,
+          HAL_MAX_DELAY);
 }
 
 // Send data
-static void writeData(uint8_t *buffer, size_t buff_size) {
-  sendBytes(0x40, buffer, buff_size);
+void writeData(uint8_t *buffer, size_t buff_size) {
+  HAL_I2C_Mem_Write(&I2C_PORT, I2C_ADDR, 0x40, 1, buffer,
+          buff_size, HAL_MAX_DELAY);
 }
 
-static void configureScreen() {
-  screenOk = true;
+/* Initialize the oled screen */
+void initScreen() {
+  // Wait for the screen to boot
+  HAL_Delay(100);
 
+  // Init OLED
   writeCommand(0xAE); //--turn off SSD1306 panel
 
   writeCommand(0x20); //Set Memory Addressing Mode
@@ -194,14 +180,6 @@ static void configureScreen() {
   writeCommand(0x14); //
 
   writeCommand(0xAF); //--turn on SSD1306 panel
-}
-
-/* Initialize the oled screen */
-void initScreen() {
-  // Wait for the screen to boot
-  HAL_Delay(100);
-
-  configureScreen();
 
   // Clear screen
   clearScreen();
@@ -223,15 +201,6 @@ void updateScreen() {
   //  * 32px   ==  4 pages
   //  * 64px   ==  8 pages
   //  * 128px  ==  16 pages
-  if (!screenOk) {
-    // Retry at most once a second so a missing or stuck OLED doesn't stall loop()
-    static uint32_t lastRetry = 0;
-    if (HAL_GetTick() - lastRetry < 1000) {
-      return;
-    }
-    lastRetry = HAL_GetTick();
-    configureScreen();
-  }
   for (uint8_t i = 0; i < SCREEN_HEIGHT / 8; i++) {
     writeCommand(0xB0 + i); // Set the current RAM page address.
     writeCommand(0x00);
