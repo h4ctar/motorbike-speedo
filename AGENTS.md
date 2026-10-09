@@ -8,6 +8,8 @@ Speedometer/clock gauge: STM32F103 (Blue Pill class) firmware in `speedo-code/`,
 - Needs `arm-none-eabi-gcc`, `arm-none-eabi-newlib` (for `nano.specs`) and `ninja` (Arch: `pacman -S arm-none-eabi-gcc arm-none-eabi-newlib ninja`).
 - Verify every change with `speedo-code/check.sh`. It runs a strict (`-Werror`) Debug and Release build in `build/check-*`, the same as CI (`.github/workflows/firmware.yml`, which runs on pushes touching `speedo-code/`). Any warning fails CI.
 - Flash with `speedo-code/flash.sh [Debug|Release]` (OpenOCD + ST-Link). It touches real hardware, so only flash when the user asks.
+- Inspect a running board without halting it (halting can interrupt I2C transfers): `openocd -f interface/stlink.cfg -f target/stm32f1x.cfg -c 'init; echo [read_memory <addr> 32 <n>]; shutdown'`, getting addresses from `arm-none-eabi-nm build/Debug/speedo-code.elf`. `mdw` output doesn't show up in `-c` mode. Arch's `arm-none-eabi-gdb` prints Python errors unless run with `-nx`.
+- Flashing resets the MCU mid-I2C-transfer and can lock up the OLED bus (SDA held low). The user must power-cycle the board until bus recovery is implemented (see `TODO.md`).
 - An agent can't see the board. A task is done only after the user confirms a hardware test. Work items are listed in `TODO.md`.
 - Workflow: `/next` (task from `TODO.md`), `/build`, `/flash`, `/after-cubemx` (run after the user regenerates from CubeMX). Use the `reviewer` subagent before committing. Commit locally; never push.
 - Pin, peripheral, clock or interrupt changes must be made by the user in STM32CubeMX (`.ioc`, `Drivers/`, and `cmake/stm32cubemx/` edits are denied in `opencode.jsonc`). Tell the user exactly what to set.
