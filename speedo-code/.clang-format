@@ -1,0 +1,15 @@
+# Matches the existing hand-written code (STM32CubeIDE/Eclipse default style).
+BasedOnStyle: LLVM
+UseTab: ForContinuationAndIndentation
+IndentWidth: 4
+TabWidth: 4
+ContinuationIndentWidth: 8
+AlignAfterOpenBracket: DontAlign
+ColumnLimit: 0
+PointerAlignment: Right
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+AlignTrailingComments: false
+AlignConsecutiveMacros: Consecutive
+ReflowComments: false
+SortIncludes: Never

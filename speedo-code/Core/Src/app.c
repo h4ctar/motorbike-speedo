@@ -9,11 +9,11 @@ void setup() {
 	HAL_TIM_Base_Start(&htim1);
 	initMotor();
 	initScreen();
-//	RTC_TimeTypeDef sTime;
-//	sTime.Hours = 12;
-//	sTime.Minutes = 34;
-//	sTime.Seconds = 0;
-//	HAL_RTC_SetTime(&hrtc, &sTime, RTC_FORMAT_BIN);
+	//	RTC_TimeTypeDef sTime;
+	//	sTime.Hours = 12;
+	//	sTime.Minutes = 34;
+	//	sTime.Seconds = 0;
+	//	HAL_RTC_SetTime(&hrtc, &sTime, RTC_FORMAT_BIN);
 }
 
 void loop() {

@@ -19,6 +19,8 @@ Speedometer/clock gauge: STM32F103 (Blue Pill class) firmware in `speedo-code/`,
 - Don't glob `Core/Src/*.c` in CMake: the generated file already lists CubeMX's sources, and duplicates break the link.
 - CMake uses `STM32F103xx_FLASH.ld` and `startup_stm32f103xb.s` in the `speedo-code/` root. `STM32F103C8TX_FLASH.ld`, `Core/Startup/`, `.cproject`, `.project` and `*.launch` are left over from STM32CubeIDE and aren't used by the CMake build.
 - `Drivers/` is vendor HAL/CMSIS code; don't edit it.
+- `speedo-code/.clang-format` matches the hand-written style (tabs, Eclipse continuation indent). `.clang-format-ignore` excludes all of `Core/` except an allowlist of hand-written files. Add new hand-written files to its `!` list, and never format CubeMX or `Drivers/` files. Inside `USER CODE` blocks in CubeMX files, match CubeMX's style by hand: 2 spaces, braces on their own line, and keep the CRLF line endings. Keep big data tables inside `// clang-format off/on`.
+- LSP: `speedo-code/.clangd` points clangd at `build/Debug/compile_commands.json`. Re-run `cmake --preset Debug` after adding source files.
 
 ## PCB (`speedo-pcb/`)
 

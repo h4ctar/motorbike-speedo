@@ -9,9 +9,9 @@
 
 #define STEP_PERIOD 1200
 
-#define MAX_POSITION        16
-#define STEPS_PER_POSITION  60.
-#define MAX_STEPS           (STEPS_PER_POSITION * MAX_POSITION)
+#define MAX_POSITION       16
+#define STEPS_PER_POSITION 60.
+#define MAX_STEPS          (STEPS_PER_POSITION * MAX_POSITION)
 
 uint32_t lastStepTime = 10000;
 uint16_t currentSteps = 0;
