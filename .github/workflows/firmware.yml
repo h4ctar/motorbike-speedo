@@ -19,7 +19,7 @@ jobs:
                 working-directory: speedo-code
 
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v7
 
             - run: |
                   sudo apt-get update
@@ -31,7 +31,7 @@ jobs:
 
             - run: arm-none-eabi-objcopy -O binary build/${{ matrix.preset }}/speedo-code.elf build/${{ matrix.preset }}/speedo-code.bin
 
-            - uses: actions/upload-artifact@v4
+            - uses: actions/upload-artifact@v7
               with:
                   name: firmware-${{ matrix.preset }}
                   path: |
